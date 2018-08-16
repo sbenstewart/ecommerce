@@ -12,14 +12,14 @@ android {
 
     signingConfigs {
         release {
-            try {
+            /*try {
                 storeFile file("openshopKeystore.jks")
                 storePassword KEYSTORE_PASSWORD
                 keyAlias KEYSTORE_ALIAS
                 keyPassword KEY_PASSWORD
             } catch (ex) {
                 throw new InvalidUserDataException("You should define KEYSTORE_PASSWORD, KEYSTORE_ALIAS and KEY_PASSWORD in gradle.properties." + ex)
-            }
+            }*/
         }
     }
 
@@ -30,7 +30,7 @@ android {
         versionCode 93
         versionName "1.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        signingConfig signingConfigs.release
+        //signingConfig signingConfigs.release
     }
 
     buildTypes {
@@ -43,7 +43,7 @@ android {
         release {
             minifyEnabled false
             debuggable false
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
 
             // For release build should be added custom proGuard
 //            minifyEnabled true
