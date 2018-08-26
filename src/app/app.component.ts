@@ -3,8 +3,7 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { MenuPage } from '../pages/menu/menu';
-import { SignupPage } from '../pages/signup/signup';
+import { Menu } from '../pages/menu/menu';
 
 @Component({
   templateUrl: 'app.html'
@@ -12,12 +11,14 @@ import { SignupPage } from '../pages/signup/signup';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = SignupPage; // MenuPage;
+  rootPage: any = Menu;
 
-  pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
+
+    
+
   }
 
   initializeApp() {
@@ -28,4 +29,5 @@ export class MyApp {
       this.splashScreen.hide();
     });
   }
+
 }
