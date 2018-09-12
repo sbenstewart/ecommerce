@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorPrimary" >
-
-	<ImageView
-        android:id="@+id/msw_loading_logo"
-        android:src="@raw/front_splash"
-        android:contentDescription=""
-        tools:ignore="ContentDescription"
-        android:layout_height="120sp"
-        android:layout_width="250sp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-</RelativeLayout>
+version https://git-lfs.github.com/spec/v1
+oid sha256:58a20dd2d2258db85a1b77478ba3a58349102c26bb459d480e4f40f711bb082a
+size 658

@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#52a73d</color>
-    <color name="colorPrimaryDark">#3e862c</color>
-    <color name="colorAccent">#f56fac60</color>
-    <color name="white">#FFFFFF</color>
-</resources>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e622afb947486dea121b4252fb25082de7d4984bac94119cadf54bdb588f028
+size 250

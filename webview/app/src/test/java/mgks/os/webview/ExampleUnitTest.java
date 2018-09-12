@@ -1,17 +1,3 @@
-package mgks.os.webview;
-
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
-public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5c09695324da28ad6be49343a135d9f24814c9d53a8830a4f0b3fe233dbfd95
+size 394

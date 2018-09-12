@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/colorPrimary" />
-</layer-list>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b71f4e1941d0876b27032e978758327b0608e2c7139365ed9dca2d819b62fea
+size 176
